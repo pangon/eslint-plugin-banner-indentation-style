@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-banner-indentation-style",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "support banner indentation style",
   "repository": {
     "type": "git",

@@ -1,6 +1,10 @@
 # eslint-plugin-banner-indentation-style
 
-support banner indentation style
+ESLint plugin to add support to banner indentation style.
+
+This is a modified version of the core indent plugin, based on Jean-Rene Bouvier rejected pull request https://github.com/eslint/eslint/pull/9676
+
+Do not use the core indent plugin and this one at the same time.
 
 ## Installation
 
@@ -36,16 +40,10 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "banner-indentation-style/rule-name": 2
+        "banner-indentation-style/indent": [
+            "error",
+            "tab"
+        ]
     }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-

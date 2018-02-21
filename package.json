@@ -1,7 +1,11 @@
 {
   "name": "eslint-plugin-banner-indentation-style",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "support banner indentation style",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pangon/eslint-plugin-banner-indentation-style"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -17,6 +21,8 @@
   },
   "devDependencies": {
     "eslint": "~3.9.1",
+    "espree": "^3.5.2",
+    "esutils": "^2.0.2",
     "mocha": "^3.1.2"
   },
   "engines": {
